@@ -1,0 +1,39 @@
+@charset "UTF-8";
+img {
+  width: 100%;
+  height: auto;
+}
+header {
+  height: 60px;
+  box-shadow: 0px 3px 3px 0px rgba(126, 126, 126, 0.16);
+}
+.header__inner {
+  max-width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+}
+.nav__item {
+  font-size: 18px;
+  padding-left: 38px;
+}
+.concept__inner {
+  text-align: center;
+  margin: 96px auto;
+  max-width: 980px;
+  border: 1px solid red;
+  max-width: 512px;
+  height: 451px;
+  }
+.heading__title {
+  font-size: 32px;
+  border: 1px solid blue;
+}
+.concept p {
+  font-size: 20px;
+}
