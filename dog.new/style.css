@@ -1,0 +1,212 @@
+@charset "UTF-8";
+html {
+  line-height: 1.2;
+}
+body {
+  font-family: Arial, "Helvetica Neue",
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+/*--------------------------------
+header
+--------------------------------*/
+header {
+  height: 50px;
+}
+.header__inner {
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+}
+.nav__item {
+  font-size: 14px;
+  margin-right: 18px;
+}
+.nav__item:last-child {
+  margin-right: 0;
+}
+/*-------------------------------
+mv
+-------------------------------*/
+.mv {
+  background-image: url(/img/mainvisual.jpg);
+  height: 513px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*-------------------------------
+concept
+-------------------------------*/
+.concept__inner {
+  margin: 98px auto 66px;
+  padding: 0 15px;
+  text-align: center;
+}
+.concept__title {
+  font-size: 20px;
+}
+.txt__des {
+  font-size: 14px;
+  margin-top: 58px;
+}
+/*-------------------------------
+DOG1
+-------------------------------*/
+.dog1 {
+  background-color: #F9F9F9;
+}
+.dog1__inner {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.dog1__title {
+  font-size: 26px;
+  text-align: center;
+  padding: 67px 0 75px;
+}
+.dog1__img {
+  height: 213px;
+}
+.dog1__txt {
+  text-align: left;
+}
+.dog1__txt h3 {
+  font-size: 20px;
+  border-bottom: 3px solid #AE0009;
+  padding: 11px 0 8px;
+}
+.dog1__txt p {
+  font-size: 16px;
+  padding: 18px 0 76px;
+}
+/*---------------------------------------
+DOG2
+---------------------------------------*/
+.dog2__inner {
+  margin: 0 auto;
+  padding: 0 36px;
+}
+.dog2__title {
+  font-size: 26px;
+  text-align: center;
+  padding: 67px 0 48px;
+}
+.dog2__item img {
+  height: 185px;
+}
+.dog2__item p {
+  font-size: 16px;
+  padding: 20px 0 50px;
+  text-align: left;
+}
+/*--------------------------------------
+bg
+--------------------------------------*/
+.bg {
+  background-image: url(/img/dog_bg_sp.jpg);
+  height: 403px;
+  background-size: cover;
+  background-position: center;
+}
+.bg__inner {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.bg p {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.bg p:first-child {
+  padding: 101px 0 72px;
+}
+/*----------------------------------------
+DOG3
+----------------------------------------*/
+.dog3__inner {
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+.dog3__title {
+  font-size: 24px;
+  padding: 108px 0 47px;
+}
+.article__header {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  padding: 10px 0;
+  border-top: 1px solid #707070;
+}
+.date {
+  font-size: 14px;
+  line-height: 2.6;
+}
+.category {
+  font-size: 14px;
+  line-height: 2;
+  color: #AE0009;
+  border: 1px solid #AE0009;
+  padding: 0 28px;
+}
+.title {
+  font-size: 14px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.title:last-child {
+  border-bottom: 1px solid #707070;
+}
+.button {
+  color: #FFFFFF;
+  font-size: 18px;
+  background-color: #AE0009;
+  padding: 8px 35px;
+  display: inline-block;
+  margin: 30px 0 80px;
+}
+/*-----------------------------------
+footer
+-----------------------------------*/
+footer {
+  background-color: #AFAFAF;
+}
+.footer__inner {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.footer__list {
+  padding: 42px 0 20px;
+}
+.copyright {
+  background-color: #797979;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 12px;
+  text-align: center;
+  display: block;
+}
+.footer__item {
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 2;
+  margin-bottom: 15px;
+}
+.footer__item p:first-child {
+  line-height: 3;
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 10px;
+}
